@@ -1,15 +1,24 @@
-                     USER
-                       │
-     ┌─────────────────┼─────────────────┐
-     │                 │                 │
-     ▼                 ▼                 ▼
+                    USER
+                      │
+                      ▼
 
-Reputation      Interaction Hub     Task Marketplace
- Scoring               │                   │
-     │                 │                   │
-     └────────────┬────┘                   │
-                  ▼                        │
-            Dynamic Token                  │
-                  ▲                        │
-                  │                        ▼
-           Dispute Resolution ◄────────────┘
+             Interaction Hub
+                      │
+                      ▼
+
+            Reputation Scoring
+                      │
+                      ▼
+
+              Dynamic Token
+
+       ▲                         ▲
+       │                         │
+
+Task Marketplace      Dispute Resolution
+
+       │                         │
+       └─────────────┬───────────┘
+                     ▼
+
+            Reputation Updates
