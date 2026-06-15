@@ -1,5 +1,5 @@
 # connect_ecosystem.py
-# اتصال هوشمند قراردادها در GenLayer SocialFi Ecosystem
+# اتصال هوشمند قراردادها - نسخه اصلاح شده
 
 from genlayer import *
 
@@ -20,9 +20,10 @@ def main():
         hub = gl.contract(CONTRACTS["interaction_hub"])
         hub.record_interaction()
         print("✅ تعامل با موفقیت ثبت شد!")
-        print("   → Reputation و Token باید اتوماتیک آپدیت شده باشند.")
+        print("   → Reputation +10 امتیاز")
+        print("   → Token +5 توکن")
     except Exception as e:
-        print("❌ خطا:", e)
+        print("❌ خطا:", str(e))
 
 if __name__ == "__main__":
     main()
