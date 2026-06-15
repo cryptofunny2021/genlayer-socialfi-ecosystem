@@ -1,5 +1,15 @@
 # GenLayer SocialFi Ecosystem
 
+## 🚀 به‌روزرسانی اخیر (v0.2.3)
+- Interaction Hub حالا مستقیماً به Reputation Scoring و Dynamic Token متصل شده.
+- ثبت هر تعامل باعث افزایش Reputation و Mint توکن می‌شود.
+- اکوسیستم در حال یکپارچه شدن است.
+
+**آدرس قراردادها (ثابت):**
+- Interaction Hub: `0xF4f25C67D8aaa24A71E85C9cCF61c5c1a8F2f8b1`
+- Reputation Scoring: `0x58a73d1dC168B4BAdf5965758656d37d963e4a81`
+- Dynamic Token: `0xeA166C0845904c919A5CD501465976B8d03dBfE6`
+- 
 A multi-contract SocialFi ecosystem built on GenLayer Testnet.
 
 This project demonstrates how multiple smart contracts can work together to create a decentralized engagement, reputation, rewards, task management, and dispute resolution infrastructure.
